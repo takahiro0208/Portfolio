@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+    <meta name="description" content="弓削　貴弘のポートフォリオ">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <div class="mask"></div>
+
+      <nav class="site-nav">
+        <ul class="nav-list">
+          <li><a href="#profile">Profile</a></li>
+          <li><a href="#infomation">Infomation</a></li>
+        </ul>
+      </nav>
+
+      <a href="#">
+        <div id="scroll-btn">
+          <span></span>
+          <span></span>
+        </div>  
+      </a>
+
+      <div id="nav-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </header>
+
+    <div id="pageAbout">
+      <div class="bg">
+        <div class="left-bg"></div>
+        <div class="right-bg">
+          <div class="shapes circle"></div>
+          <div class="shapes triangle"></div>
+          <div class="shapes square"></div>
+        </div>
+      </div>
+      <div class="title">
+        <h1 class="title-animation">
+          <span>T</span><span>a</span><span>k</span><span>a</span><span>h</span><span>i</span><span>r</span><span>o</span><br>
+          <span>Y</span><span>u</span><span>g</span><span>e</span><br>
+          <span>P</span><span>o</span><span>r</span><span>t</span><span>f</span><span>o</span><span>l</span><span>i</span><span>o</span>
+        </h1>
+      </div>
+      <div class="verticalLine"></div>
+      <div class="horizontalLine"></div>
+      <div id="scroll">scroll</div>
+    </div>
+
+    <main>
+      <div id="slideProfile">
+        <section id="profile" class="wrapper">
+          <div class="inner">
+            <h2 class="section-title">
+              <span class="en">Profile</span>
+              <span class="ja">自己紹介</span>
+            </h2>
+  
+            <div class="profile-content">
+              <div class="profile-left">
+                <p class="profile-text">
+                  1991年生まれ大阪府大阪市在住。<br>
+                  <br>
+                  2013年に大阪大谷大学を卒業し、和菓子の製造工場に就職。1年ほど就業した後、夜間の写真専門学校に入学。卒業後は子ども写真館に就職しました。<br>
+                  <br>
+                  しかし、半年で写真館を退職し、その後は企業向けの砥石の製造工場に就職。<br>
+                  6年ほど砥石の製造に従事してきましたが、
+                  2022年の5月頃からITという分野に興味を持ち始め、独学でJavaの
+                  勉強を開始。その後、Oracle認定資格であるJava Silverを
+                  取得しました。<br>
+                  <br>
+                  2023年頃からフロントエンドに興味を持ち始め、独学でHTML、
+                  CSS、JavaScriptの勉強を開始し、現在に至ります。
+                </p>
+              </div>
+              <div class="profile-right">
+                <img class="profile-photo" src="./image/プロフィール用.jpg" alt="自分の写真">
+                <span class="name">弓削　貴弘</span>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div id="slideInfomation">
+        <section id="infomation" class="wrapper">
+          <div class="inner">
+            <h2 class="section-title">
+              <span class="en">Infomation</span>
+              <span class="ja">情報</span>
+            </h2>
+            <dl class="infomation-list">
+              <dt>出身</dt>
+              <dd>大阪府大阪市</dd>
+              <dt>最終学歴</dt>
+              <dd>大阪大谷大学</dd>
+              <dt>勉強した言語</dt>
+              <dd>
+                <ul>
+                  <li>- HTML</li>
+                  <li>- CSS</li>
+                  <li>- JavaScript</li>
+                  <li>- Java</li>
+                </ul>
+              </dd>
+              <dt>資格</dt>
+              <dd>
+                <ul>
+                  <li>- 基本情報技術者</li>
+                  <li>- Oracle Certified Java Programmer, Silver SE 11</li>
+                </ul>
+              </dd>
+              <dt>好きなこと</dt>
+              <dd>
+                <ul>
+                  <li>- ゲーム(APEX)</li>
+                  <li>- カメラ(Canon EOS 70D)</li>
+                  <li>- テニス</li>
+                  <li>- 映画</li>
+                  <li>- 旅行</li>
+                </ul>
+              </dd>
+            </dl>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <p class="copyright">&copy; Takahiro Yuge</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script src="jquery.inview.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
